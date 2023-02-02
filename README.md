@@ -2,9 +2,9 @@
 
 This service provides an Sage auth backend for Docker Registry v2.
 
-## Copy of the README from sage-ecr
-
 _We are moving this into its own repo from sage-ecr, since it seems to be a standalone component. This does not build at the moment but is a parking space for any changes to fix that._
+
+## Copy of the README from sage-ecr
 
 SAGE uses [docker_auth](https://github.com/cesanta/docker_auth) for authentication and authorization of the ECR docker registry. SAGE specific code is integrated as plugins into docker_auth. One plugin is for authentication (`sage_plugin`) and one plugin is for authorization `sage_plugin_z`.
 
